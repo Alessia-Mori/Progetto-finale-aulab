@@ -1,0 +1,119 @@
+:root{
+    --medium: #ff99c8;
+    --light: #fcf6bd;
+    --dark: #d0f4de;
+}
+.bg-light-custom{
+    background-color: var(--light);
+}
+
+.bg-medium-custom {
+    background-color: var(--medium);
+
+}
+
+.bg-dark-custom {
+    background-color: var(--dark);
+}
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-custom-navup{
+    background: linear-gradient(0deg, rgba(255,153,200,1) 13%, rgba(252,246,189,1) 100%);
+}
+.bg-custom-navup-1{
+    background: linear-gradient(0deg, rgba(252,246,189,1) 13%, rgba(255,153,200,1) 100%);
+}
+.bg-navbar{
+    background-color: transparent;
+}
+
+
+
+  .btn-custom {
+    border-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+
+
+
+@media (min-width: 768px) {
+    .categorieNavCustom{
+        display: none;
+    }
+}
+
+
+
+.gradient-from-pink {
+    background: linear-gradient(1deg,rgba(208,244,222,1)  0%, rgba(255,153,200,1) 69%);
+}
+ 
+
+.gradient-three-colors {
+    background-image: linear-gradient(to right top, #d0f4de, #d0f4de, #d0f4de, #d0f4de, #d0f4de, #d1efd0, #d5eac2, #dbe3b5, #eed19e, #ffbc99, #ffa7a9, #ff99c8);
+}
+
+.bg-white-transparent {
+    background-color: rgba(255, 255, 255 ,0.7);
+}
+
+
+
+/* Carosello show.blade.php */
+
+.caroselloCustom{
+    padding-top: 5vh;
+    
+}
+
+@media (max-width: 768px) {
+    .caroselloCustom{
+        padding-top: 15vh;
+        margin: 0px !important;
+    }
+}
+
+
+/* Create form */
+.img-preview{
+    height: 200px;
+    width: 200px;
+}
+
+/* carosello revisor */
+#caroselloR {
+    
+    
+}
+
+
+
+@media (max-width: 768px) {
+    .containerCustomMobile{
+        padding-top: 15vh;
+        margin: 0px !important;
+        background-image: linear-gradient(to right top, #d0f4de, #d0f4de, #d0f4de, #d0f4de, #d0f4de, #d1efd0, #d5eac2, #dbe3b5, #eed19e, #ffbc99, #ffa7a9, #ff99c8);
+        
+    }
+}
+
+
+/* revisor page */
+.border-custom {
+    border: 2px solid rgb(192, 192, 192);
+}

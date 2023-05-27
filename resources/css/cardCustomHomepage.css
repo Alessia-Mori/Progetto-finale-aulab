@@ -1,0 +1,10 @@
+.custom-card{
+  
+}
+.custom-card:hover{
+  border: 3px solid rgb(172, 172, 172);
+  border-radius: 8px;
+}
+.custom-time{
+  font-size: 0.7rem;
+}

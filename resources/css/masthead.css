@@ -1,0 +1,53 @@
+:root{
+  --medium: #ff99c8;
+  --light: #fcf6bd;
+  --dark: #d0f4de;
+}
+
+
+
+.masthead {
+    height: 60vh;
+    min-height: 250px;
+
+  }
+
+
+  .shop-btn {
+    padding:10px 20px;
+    border:3px solid white
+  }
+
+  .shop-btn:hover, .shop-btn:active  {
+    background-color: white;
+    border: 3px solid var(--dark)
+  }
+
+  .masthead-img {
+    opacity:75%;
+    /* width:400px; */
+    height:400px;
+
+  }
+
+  #presto-title {
+    letter-spacing: 1.5rem;
+    
+  }
+
+  .bottoneCustomSearch{
+    padding-bottom: 20px;
+}
+
+.input-custom {
+    border-color:white;
+    border-radius:0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:30%;
+  }
+
+ .form-control:focus  {
+    border:none;
+    box-shadow: none !important;
+  }

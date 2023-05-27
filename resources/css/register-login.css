@@ -1,0 +1,60 @@
+:root{
+    --medium: #ff99c8;
+    --light: #fcf6bd;
+    --dark: #d0f4de;
+}
+.bg-light-custom{
+    background-color: var(--light);
+}
+
+.bg-medium-custom {
+    background-color: var(--medium);
+
+}
+
+.bg-dark-custom {
+    background-color: var(--dark);
+}
+
+.gradient-container {
+    background: linear-gradient(1deg, rgba(255,153,200,1) 0%, rgba(208,244,222,1) 69%);
+}
+
+.bg-form-box {
+    background-color: rgba(142, 141, 141, 0.3);
+}
+
+.lr-title {
+    letter-spacing: 1.2rem;
+}
+
+.rl-input {
+    width: 100%;
+    padding: 15px 0px 15px 15px;
+    border: 1px solid #fff;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    margin: 14px 0px;
+    background: none;
+}
+
+#loginSection{
+    height: 100%;
+}
+
+@media (max-width: 768px) { 
+    #loginSection{
+        height: 10%;
+    }
+    #registerSection{
+        height: 10%;
+    }
+ }
+
+ @media (min-width: 768px) {
+    
+    .lr-title {
+        letter-spacing: 0.7rem;         
+    }
+}
